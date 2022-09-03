@@ -19,8 +19,8 @@ let render = () => {
             <li>
                 <span class="">${task}</span>
                     <div class ="buttons">
-                        <button class="remove" onclick="deleteTasks('${index}')" ><i class="fa-sharp fa-solid fa-trash"></i></button>
-                        <button class="complete" onclick="pushcheckComplete('${index}')"class="check"><i class="fa-sharp fa-solid fa-check"></i></button>
+                        <button class="clear" onclick="deleteTasks('${index}')" ><i class="fa-sharp fa-solid fa-trash"></i></button>
+                        <button class="work" onclick="pushcheckComplete('${index}')"class="check"><i class="fa-sharp fa-solid fa-check"></i></button>
                     </div>
                 
             </li>
@@ -72,8 +72,8 @@ let checkwork = () => {
             <li>
                 <span>${local}</span>
                 <div class ="buttons">
-                        <button class="complete" onclick="deletelocal('${index}')" ><i class="fa-sharp fa-solid fa-trash"></i></button>
-                        <button class="complete" onclick="" class="check"><i class="fa-sharp fa-solid fa-check-circle"></i></button>
+                        <button class="clear" onclick="deletelocal('${index}')" ><i class="fa-sharp fa-solid fa-trash"></i></button>
+                        <button class="work" onclick="" class="check"><i class="fa-sharp fa-solid fa-check-circle"></i></button>
                 </div>
             </li>
         `
